@@ -1,91 +1,150 @@
-```html
-<!-- Gizlilik Politikası (TURKISH) -->
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gizlilik Politikası | X2 Blocks Premium</title>
-    <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #e2e8f0; background: #0f172a; margin: 0; padding: 0; }
-        .container { max-width: 800px; margin: 40px auto; padding: 40px; background: #1e293b; border-radius: 12px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.5); }
-        h1 { color: #f8fafc; border-bottom: 2px solid #3b82f6; padding-bottom: 10px; }
-        h2 { color: #60a5fa; margin-top: 30px; }
-        p, li { color: #94a3b8; }
-        .footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid #334155; font-size: 0.9em; }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Gizlilik Politikası</h1>
-        <p><strong>Son Güncelleme:</strong> 14 Şubat 2026</p>
-        <p>X2 Blocks Premium olarak gizliliğinize önem veriyoruz. Bu metin, oyunumuzu kullandığınızda verilerinizin nasıl işlendiğini açıklar.</p>
-
-        <h2>1. Toplanan Bilgiler</h2>
-        <p>Uygulamamız, oyun deneyimini iyileştirmek ve güvenliği sağlamak amacıyla aşağıdaki verileri toplayabilir:</p>
-        <ul>
-            <li>Cihaz modeli ve işletim sistemi sürümü.</li>
-            <li>Yaklaşık konum bilgisi (IP adresi üzerinden ülke bazlı).</li>
-            <li>Oyun içi istatistikler (skorlar, seviye ilerlemesi, birleştirme sayısı).</li>
-            <li>Google Giriş kullanıldığında: Ad ve profil resmi.</li>
-        </ul>
-
-        <h2>2. Reklamlar ve Üçüncü Taraflar</h2>
-        <p>Oyunumuzda Google AdMob servisleri kullanılmaktadır. Reklam ortaklarımız, size ilgi alanınıza yönelik reklamlar sunmak için cihaz tanımlayıcılarını kullanabilir.</p>
-
-        <h2>3. Veri Güvenliği ve Silme</h2>
-        <p>Verileriniz güvenli sunucularda saklanır. İstediğiniz an ayarlar menüsündeki "Tüm Verileri Sil" butonuyla hesabınızı ve verilerinizi kalıcı olarak silebilirsiniz.</p>
-
-        <div class="footer">
-            <p><strong>İletişim:</strong> resulkilicaslan@gmail.com</p>
-        </div>
-    </div>
-</body>
-</html>
-```
-<!-- slide -->
-```html
-<!-- Privacy Policy (ENGLISH) -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy | X2 Blocks Premium</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #e2e8f0; background: #0f111a; margin: 0; padding: 0; }
-        .container { max-width: 800px; margin: 40px auto; padding: 40px; background: #1a1c2e; border-radius: 12px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.5); }
-        h1 { color: #ffffff; border-bottom: 2px solid #10b981; padding-bottom: 10px; }
-        h2 { color: #34d399; margin-top: 30px; }
-        p, li { color: #a1a1aa; }
-        .footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid #2d2f45; font-size: 0.9em; }
+        :root {
+            --bg: #0f111a;
+            --card: #161a29;
+            --accent: #10b981;
+            --text: #e2e8f0;
+            --text-muted: #94a3b8;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .policy-card {
+            background: var(--card);
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+
+        h1 { font-size: 2.5rem; text-align: center; margin-bottom: 40px; color: #fff; }
+        h2 { color: var(--accent); margin-top: 40px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px; }
+        h3 { color: #fff; margin-top: 25px; }
+        
+        .language-block { margin-bottom: 60px; }
+        .date { font-size: 0.9rem; color: var(--text-muted); text-align: center; margin-bottom: 30px; }
+        
+        .deletion-box {
+            background: rgba(16, 185, 129, 0.05);
+            border: 1px dashed var(--accent);
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+
+        p, li { font-size: 1.05rem; color: var(--text-muted); }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+        strong { color: #fff; }
+
+        .divider { height: 2px; background: rgba(255,255,255,0.05); margin: 60px 0; }
+        
+        @media (max-width: 768px) {
+            .policy-card { padding: 25px; }
+            h1 { font-size: 1.8rem; }
+        }
     </style>
 </head>
 <body>
+
     <div class="container">
-        <h1>Privacy Policy</h1>
-        <p><strong>Last Updated:</strong> February 14, 2026</p>
-        <p>At X2 Blocks Premium, we are committed to protecting your privacy. This policy explains how we collect and manage your data.</p>
+        <div class="policy-card">
+            
+            <!-- ENGLISH SECTION -->
+            <div class="language-block">
+                <h1>Privacy Policy</h1>
+                <p class="date">Last Updated: February 14, 2026</p>
+                
+                <h2>1. Introduction</h2>
+                <p>Welcome to X2 Blocks Premium. We respect your privacy and are committed to protecting your personal data. This policy explains how we collect and process your information when you play our game.</p>
 
-        <h2>1. Information We Collect</h2>
-        <p>To provide a better gaming experience, we may collect the following data:</p>
-        <ul>
-            <li>Device model and OS version.</li>
-            <li>Approximate location (Country via IP).</li>
-            <li>In-game statistics (scores, progress, merges).</li>
-            <li>Google Sign-In: Name and profile picture.</li>
-        </ul>
+                <h2>2. Information We Collect</h2>
+                <p>We collect certain data to provide a better gaming experience and manage global rankings:</p>
+                <ul>
+                    <li><strong>Personal Information:</strong> Name and Profile Picture (Only if you sign in with Google).</li>
+                    <li><strong>Identifiers:</strong> Email address and unique User IDs for account syncing.</li>
+                    <li><strong>Game Data:</strong> Scores, total merges, and level progress.</li>
+                    <li><strong>Device Data:</strong> OS version, device model, and Country (via IP).</li>
+                </ul>
 
-        <h2>2. Ads and Third-Party Services</h2>
-        <p>Our game uses Google AdMob. Our advertising partners may use device identifiers to show personalized ads based on your interests.</p>
+                <h2 id="account-deletion">3. Account and Data Deletion</h2>
+                <div class="deletion-box">
+                    <p>Google Play requires us to provide a method for users to request account and data deletion. You have full control over your data:</p>
+                    
+                    <h3>A. Direct In-App Deletion (Recommended)</h3>
+                    <p>You can permanently delete your entire account, including scores, diamonds, and profile, directly within the game. Go to <strong>Settings > Account & Data > Delete All Data</strong> and confirm. This process is instant and cannot be undone.</p>
+                    
+                    <h3>B. Request via Email</h3>
+                    <p>Alternatively, you can request account deletion by contacting us at <strong>resulkilicaslan@gmail.com</strong>. Please provide your User ID or the email address associated with your Google Sign-In. We will process your request and remove all your data from our servers within 7 business days.</p>
+                </div>
 
-        <h2>3. Data Security and Deletion</h2>
-        <p>Your data is stored securely. You can permanently delete your progress and profile information at any time using the "Delete All Data" button in the Settings menu.</p>
+                <h2>4. Ads and Third Parties</h2>
+                <p>We use Google AdMob to show advertisements. Our partners may use device identifiers to personalize ads based on your interests.</p>
 
-        <div class="footer">
-            <p><strong>Contact:</strong> resulkilicaslan@gmail.com</p>
+                <h2>5. Contact</h2>
+                <p>If you have any questions about this policy, please contact us at: <strong>resulkilicaslan@gmail.com</strong></p>
+            </div>
+
+            <div class="divider"></div>
+
+            <!-- TURKISH SECTION -->
+            <div class="language-block">
+                <h1>Gizlilik Politikası</h1>
+                <p class="date">Son Güncelleme: 14 Şubat 2026</p>
+
+                <h2>1. Giriş</h2>
+                <p>X2 Blocks Premium'a hoş geldiniz. Gizliliğinize saygı duyuyor ve verilerinizi korumayı taahhüt ediyoruz. Bu politika, oyunumuzu oynadığınızda verilerinizin nasıl toplandığını açıklar.</p>
+
+                <h2>2. Toplanan Bilgiler</h2>
+                <p>Oyun deneyimini iyileştirmek ve dünya sıralamalarını yönetmek amacıyla belirli verileri topluyoruz:</p>
+                <ul>
+                    <li><strong>Kişisel Bilgiler:</strong> İsim ve Profil Resmi (Sadece Google ile giriş yapıldığında).</li>
+                    <li><strong>Tanımlayıcılar:</strong> E-posta adresi ve hesap senkronizasyonu için benzersiz Kullanıcı Kimlikleri (UID).</li>
+                    <li><strong>Oyun Verileri:</strong> Skorlar, toplam birleşmeler ve seviye ilerlemesi.</li>
+                    <li><strong>Cihaz Verileri:</strong> İşletim sistemi sürümü, cihaz modeli ve Ülke (IP üzerinden).</li>
+                </ul>
+
+                <h2 id="hesap-silme">3. Hesap ve Veri Silme</h2>
+                <div class="deletion-box">
+                    <p>Google Play politikaları gereği, kullanıcılarımıza verilerini silme hakkı sunuyoruz. Verileriniz üzerinde tam kontrole sahipsiniz:</p>
+                    
+                    <h3>A. Uygulama İçinden Silme (Önerilen)</h3>
+                    <p>Skorlar, elmaslar ve profil dahil tüm hesabınızı oyun içinden kalıcı olarak silebilirsiniz. <strong>Ayarlar > Hesap ve Veri > Tüm Verileri Sil</strong> yolunu izleyin ve onaylayın. Bu işlem anında gerçekleşir ve geri alınamaz.</p>
+                    
+                    <h3>B. E-posta Yoluyla Talep</h3>
+                    <p>Alternatif olarak, <strong>resulkilicaslan@gmail.com</strong> adresinden bizimle iletişime geçerek hesap silme talebinde bulunabilirsiniz. Lütfen Kullanıcı Kimliğinizi (UID) veya Google ile giriş yaptığınız e-posta adresini belirtin. Talebiniz 7 iş günü içinde işleme alınacak ve tüm verileriniz sunucularımızdan kalıcı olarak silinecektir.</p>
+                </div>
+
+                <h2>4. Reklamlar ve Üçüncü Taraflar</h2>
+                <p>Reklam göstermek için Google AdMob kullanıyoruz. İş ortaklarımız, ilgi alanlarınıza göre reklamları kişiselleştirmek için cihaz kimliklerini kullanabilir.</p>
+
+                <h2>5. İletişim</h2>
+                <p>Bu politikayla ilgili sorularınız için bizimle şu adresten iletişime geçebilirsiniz: <strong>resulkilicaslan@gmail.com</strong></p>
+            </div>
+
         </div>
     </div>
+
 </body>
 </html>
-```
